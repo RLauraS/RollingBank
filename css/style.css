@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+ 
+.fuente{
+  font-family: 'Black Han Sans', sans-serif;
+ }
+
+.imgFooter {
+  width: 212px;
+  object-fit: cove;
+}
+
+#centrarImagen{
+    text-align: center;
+}
+@media all and (min-width: 991px) {
+  .banner {
+    height: 350px;
+    object-fit: cover;
+  }
+}
+@media all and (min-width: 767px) and (max-width: 990px) {
+  .banner {
+    height: 456px;
+    object-fit: cover;
+  }
+}
+@media all and (max-width: 766px) {
+  .banner {
+    height: 239px;
+    object-fit: cover;
+  }
+}
+@media all and (min-width: 991px) {
+  .celu {
+    width: 375px;
+    object-fit: cover;
+  }
+}
+@media all and (min-width: 767px) and (max-width: 990px) {
+  .celu {
+    width: 300px;
+    object-fit: cover;
+  }
+}
+@media all and (max-width: 766px) {
+  .celu {
+    height: 650px;
+    object-fit: cover;
+  }
+}
+
+@media all and (min-width: 991px) {
+  .qSomos {
+    height: 700px;
+    object-fit: cover;
+  }
+}
+@media all and (min-width: 767px) and (max-width: 990px) {
+  .qSomos {
+    height: 500px;
+    object-fit: cover;
+  }
+}
+@media all and (max-width: 766px) {
+  .qSomos {
+    width: 300px;
+    object-fit: cover;
+  }
+}
+@media all and (min-width: 991px) {
+  .imagenSeguridad {
+    height: 250px;
+    object-fit: cover;
+  }
+}
+@media all and (min-width: 767px) and (max-width: 990px) {
+  .imagenSeguridad {
+    height: 200px;
+    object-fit: cover;
+  }
+}
+@media all and (max-width: 766px) {
+  .imagenSeguridad {
+    height: 175px;
+    object-fit: cover;
+  }
+}
+@media all and (min-width: 767px) and (max-width: 990px) {
+    .ups {
+      height: 500px;
+      object-fit: cover;
+    }
+  }
+  @media all and (max-width: 766px) {
+    .ups {
+      width: 300px;
+      object-fit: cover;
+    }
+  }
